@@ -4,30 +4,6 @@ This is an attempt at a D&D 5e LaTeX template. The color scheme is close to the 
 
 The template compiles with pdflatex.
 
-![Preview](https://github.com/anoderay/DND-5e-LaTeX-Template/raw/master/scrot.png)
-
-
-### Installation
-
-Just clone the repo. From terminal:
-
-```sh
-$ git clone https://github.com/anoderay/DND-5e-LaTeX-Template.git 5e-template
-$ cd 5e-template
-$ pdflatex example.tex
-```
-
-If you don't have LaTeX installed, the following should help you out:
-#### Ubuntu
-```sh
-sudo apt-get install texlive-full
-```
-#### Arch
-```sh
-sudo pacman -S texlive-bin texlive-core texlive-latexextra
-```
-It's a bit unclear exactly what subset of features this module needs. As a general rule, we'd recommend installing one of larger ones.
-
 ### Package Options
 - bg-letter: Loads a letter-sized background-image
 - bg-a4: Loads an A4-sized background-image
@@ -36,22 +12,13 @@ It's a bit unclear exactly what subset of features this module needs. As a gener
 
 Per default "bg-letter" and "bg-full" are loaded.
 
-### Todo's
-
- - Consider implementing more complex tables for monsters, etc.
- - Clean up the table-preset
- - Create more elegant solution for spacing before and after boxes (using \vspace is rather rigid when two boxes follow in a row)
- - Add subtitle option for boxes
- - Sort out box-decals when boxes break column or page
- - Look into adding the ability to add large images to the document. There are some documents made with InDesign out there that accomplish this quite well.
-
+### Notes
+ - This is essentially a branch of https://github.com/anoderay/DND-5e-LaTeX-Template.git, but when I first got it I wasn't using git or GitHub so it's just my local copy added to my own repository.
+ - I am new to using git and GitHub so please be patient with me, if I have done anything wrong please tell me how to correct my mistake.
 
 ### Image Credit
 
  - Credit for the background image goes to http://lostandtaken.com/
-
-### Version
-0.5
 
 ### License
 The MIT License (MIT)
