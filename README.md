@@ -13,8 +13,9 @@ The template compiles with pdflatex.
 Per default "bg-letter" and "bg-full" are loaded.
 
 ### Notes
- - This is essentially a branch of https://github.com/anoderay/DND-5e-LaTeX-Template.git, but when I first got it I wasn't using git or GitHub so it's just my local copy added to my own repository.
+ - This is essentially a branch of https://github.com/evanbergeron/DND-5e-LaTeX-Template.git, but when I first got it I wasn't using git or GitHub so it's just my local copy added to my own repository.
  - I am new to using git and GitHub so please be patient with me, if I have done anything wrong please tell me how to correct my mistake.
+ - I may try to make a fork of the repository listed above and apply my changes, in which case I will delete this.
 
 ### Image Credit
 
