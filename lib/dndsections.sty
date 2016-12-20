@@ -1,0 +1,23 @@
+%Remove Numbering from section (If you want Numbering on the sections comment the following three lines and change the "0em" separation-definitions in the lower part to 1em)
+\renewcommand\thesection{}
+\renewcommand\thesubsection{}
+\renewcommand\thesubsubsection{}
+\renewcommand\theparagraph{}
+
+% Adjust section and subsection colors and font (change 0em to 1em if you commented the removal of section numbering)
+\titlespacing{\chapter}{0em}{0em}{1em}
+
+\titleformat{\chapter}
+{\color{titlered}\normalfont\scshape\huge}{\chaptername\  \thechapter :\ }{0em}{}
+
+\titleformat{\section}
+{\color{titlered}\normalfont\scshape\LARGE}{\thesection}{0em}{}
+
+\titleformat{\subsection}
+{\color{titlered}\normalfont\scshape\Large}{\thesubsection}{0em}{}[{\titleline{\color{undergold}\titlerule[1pt]}}]
+
+\titleformat{\subsubsection}%[block]
+{\color{titlered}\normalfont\scshape\large}{\thesubsubsection}{0em}{}[\vspace{-1ex}]
+
+%\titleformat{\paragraph}[block]
+%{\color{titlered}\normalfont\scshape\large}{\theparagraph}{0em}{}[\vspace{-1.75ex}]

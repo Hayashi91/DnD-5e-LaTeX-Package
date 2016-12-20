@@ -1,0 +1,12 @@
+% Table Environment
+\newenvironment{dndtable}[2]
+               {
+                 \par\vspace*{8pt}
+                 \noindent
+                 \fontfamily{lmss}\selectfont %Select font
+                 \rowcolors{1}{bgtan}{commentgreen} % Alternate colors
+                 \tabularx{#1}{#2}
+               }
+	       {
+                 \vspace{8pt plus 1pt}\noindent\endtabularx
+               }
